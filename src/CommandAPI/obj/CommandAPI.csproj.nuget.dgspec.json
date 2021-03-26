@@ -38,11 +38,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "microsoft.EntityFrameworkCore.sqlserver": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.4, )"
             },
-            "microsoft.entityframeworkcore.design": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
