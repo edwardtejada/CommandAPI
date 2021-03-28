@@ -9,6 +9,3 @@ namespace CommandAPI.Dtos
     }
 }
 
-//dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
-//dotnet add package Microsoft.AspNetCore.JsonPatch
-//dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson

@@ -4,6 +4,7 @@ using CommandAPI.Data;
 using CommandAPI.Models;
 using AutoMapper;
 using CommandAPI.Dtos;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace CommandAPI.Controllers
 {
@@ -27,7 +28,7 @@ namespace CommandAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commandItems));
         }
 
-        [HttpGet("{id}", Name="GetCommandById"))]
+        [HttpGet("{id}", Name="GetCommandById")]
         public ActionResult<CommandReadDto> GetCommandById(int id)
         {
             var commandItem = _repository.GetCommandById(id);
@@ -68,7 +69,7 @@ namespace CommandAPI.Controllers
             return NoContent();
         }
 
-        [HttpPatch("{id}")]
+        /*[HttpPatch("{id}")]
         public ActionResult PartialCommandUpdate(int id, JsonPatchDocument<CommandUpdateDto> patchDoc)
         {
             var commandModelFromRepo = _repository.GetCommandById(id);
@@ -88,7 +89,7 @@ namespace CommandAPI.Controllers
             _repository.UpdateCommand(commandModelFromRepo);
             _repository.SaveChanges();
             return NoContent();
-        }
+        }*/
 
         [HttpDelete("{id}")]
         public ActionResult DeleteCommand(int id)
