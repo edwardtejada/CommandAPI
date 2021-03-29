@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "W5AXkhFewX4tJQeWMHo0PqFsg1sgPCZ/4dauRdHHYa5r3lesbIsnZBKUOUE4VSwaC/zU/AztxT7cvc1IUXsf/Q==",
+  "dgSpecHash": "3F73Q73jLS0wRSunWXGs77HKK2a7GbWPhqCKSvowNRtpNfFfRzWSHgPOV+d8PxUI5l/GYOWCzGGl9jTuUKMp7Q==",
   "success": true,
   "projectFilePath": "C:\\c#\\CommandAPISolution\\src\\CommandAPI\\CommandAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joel_\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Joel_\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Joel_\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Joel_\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",
     "C:\\Users\\Joel_\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.4\\microsoft.aspnetcore.jsonpatch.5.0.4.nupkg.sha512",
     "C:\\Users\\Joel_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Joel_\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
